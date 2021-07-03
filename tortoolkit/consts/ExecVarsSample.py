@@ -32,7 +32,7 @@ except:
         DB_URI = os.environ.get("DATABASE_URL")
         
         # The base direcory to which the files will be upload if using RCLONE
-        RCLONE_BASE_DIR = "/app/rclone.config"
+        RCLONE_BASE_DIR = "/app/rclone.conf"
 
         # This value will be considered only if Rclone is True - this may be defied now ;)
         # Cuz at least one needs to be Ture at a time either RCLONE or Leech.
