@@ -14,7 +14,7 @@ except:
         ALD_USR = [871967943,1291911714,755983475,1282644258,-1001348584170]
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 5
+        EDIT_SLEEP_SECS = 2
 
         # Telegram Upload Limit (in bytes)
         TG_UP_LIMIT = 2000000000
@@ -23,10 +23,10 @@ except:
         FORCE_DOCUMENTS = False
 
         # Chracter to use as a completed progress 
-        COMPLETED_STR = "▰"
+        COMPLETED_STR = "🌝"
 
         # Chracter to use as a incomplete progress
-        REMAINING_STR = "▱"
+        REMAINING_STR = "🌚"
 
         # DB URI for access
         DB_URI = os.environ.get("DATABASE_URL")
